@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main() {
+  // Add your code below  
+  double gmars = 3.71;
+  double gearth = 9.8;
+  double wearth;
+  double wmars;
+
+  std::cout << "How heavy is your item on Earth?\n";
+  std::cin >> wearth;
+
+  wmars = wearth * (gmars / gearth);
+
+  std::cout << "Your item would weigh " << wmars << "kgs on Mars!\n";
+
+
+}
